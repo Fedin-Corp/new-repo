@@ -1,4 +1,4 @@
-FROM node:4
+FROM node:latest
 WORKDIR /usr/src/app
 COPY . .
 RUN npm ci && npm run build

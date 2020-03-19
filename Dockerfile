@@ -1,7 +1,9 @@
-FROM node:6
+FROM node:8
 WORKDIR /usr/src/app
 COPY . .
 RUN npm ci && npm run build
+
+healthcheck null
 
 EXPOSE 8000
 CMD [ "npm", "start" ]

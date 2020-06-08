@@ -91,7 +91,7 @@
     "request-promise-native": "1.0.5",
     "semver": "5.5.1",
     "sequelize": "4.44.3",
-    "sequelize-replace-enum-postgres": "^1.5.0"
+    "sequelize-replace-enum-postgres": "^1.5.1"
   },
   "release": {
     "plugins": [
